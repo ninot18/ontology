@@ -2,9 +2,10 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "undefined" ],
-    "baseIris" : [ "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "version" : "Version 1.0",
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://ninot18.github.io/ontology/" ],
+    "iri" : "https://ninot18.github.io/ontology/",
+    "version" : "Version 1.0.0",
+    "author" : [ "Pedro Giovanny Rojas Gil" ],
     "labels" : {
       "undefined" : "SmartTourism"
     },
@@ -12,26 +13,44 @@
       "undefined" : "Ontology developed by Pedro Giovanny Rojas Gil"
     },
     "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "CC-ALL 4.0",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Pedro Giovanny Rojas Gil",
+        "type" : "label"
+      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "undefined",
-        "value" : "Version 1.0",
+        "value" : "Version 1.0.0",
+        "type" : "label"
+      } ],
+      "creationDate" : [ {
+        "identifier" : "creationDate",
+        "language" : "undefined",
+        "value" : "2025-04-30T12:00:00Z",
         "type" : "label"
       } ]
     }
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "0",
-    "type" : "owl:Class"
-  }, {
-    "id" : "2",
+    "id" : "3",
     "type" : "owl:Thing"
   }, {
-    "id" : "8",
-    "type" : "rdfs:Datatype"
+    "id" : "4",
+    "type" : "owl:Class"
   }, {
     "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "11",
@@ -43,450 +62,133 @@
     "id" : "13",
     "type" : "rdfs:Datatype"
   }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
     "id" : "14",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "15",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "17",
+    "id" : "16",
     "type" : "rdfs:Datatype"
-  }, {
-    "id" : "18",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "19",
-    "type" : "owl:Class"
   }, {
     "id" : "20",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "23",
+    "id" : "24",
     "type" : "owl:Class"
   }, {
-    "id" : "27",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
+    "id" : "28",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "30",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "35",
-    "type" : "owl:Class"
-  }, {
-    "id" : "25",
-    "type" : "owl:Class"
-  }, {
-    "id" : "47",
-    "type" : "owl:Class"
-  }, {
-    "id" : "48",
-    "type" : "owl:Class"
-  }, {
     "id" : "49",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
-    "type" : "owl:Class"
-  }, {
-    "id" : "54",
-    "type" : "owl:Class"
-  }, {
-    "id" : "52",
-    "type" : "owl:Class"
-  }, {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
     "id" : "50",
-    "type" : "owl:Class"
-  }, {
-    "id" : "69",
-    "type" : "owl:Class"
-  }, {
-    "id" : "4",
-    "type" : "owl:Class"
-  }, {
-    "id" : "56",
-    "type" : "owl:Class"
-  }, {
-    "id" : "61",
-    "type" : "owl:Class"
-  }, {
-    "id" : "79",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "36",
-    "type" : "owl:Class"
-  }, {
-    "id" : "33",
     "type" : "owl:Class"
   }, {
     "id" : "41",
     "type" : "owl:Class"
   }, {
-    "id" : "45",
-    "type" : "owl:Class"
-  }, {
-    "id" : "87",
-    "type" : "owl:Class"
-  }, {
-    "id" : "51",
-    "type" : "owl:Class"
-  }, {
-    "id" : "22",
-    "type" : "owl:Class"
-  }, {
-    "id" : "53",
-    "type" : "owl:Class"
-  }, {
-    "id" : "60",
-    "type" : "owl:Class"
-  }, {
     "id" : "40",
     "type" : "owl:Class"
   }, {
-    "id" : "77",
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
     "type" : "owl:Class"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
     "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#culturalAttraction",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "culturalAttraction",
-      "undefined" : "Cultural Attraction"
-    },
-    "comment" : {
-      "undefined" : "A tourist site that reflects the cultural identity or heritage of a location."
-    },
-    "id" : "0",
-    "superClasses" : [ "1" ]
-  }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "2",
+    "id" : "3",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "8",
-    "label" : {
-      "IRI-based" : "int"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "9",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "11",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "12",
-    "label" : {
-      "IRI-based" : "int"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "13",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "14",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "15",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "17",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "18",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#business",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "business",
-      "undefined" : "Business Hotel"
-    },
-    "comment" : {
-      "undefined" : "A hotel designed for business travelers, offering amenities such as meeting rooms and internet."
-    },
-    "id" : "19",
-    "superClasses" : [ "7" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "20",
-    "label" : {
-      "IRI-based" : "dateTime"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#beachAttraction",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "beachAttraction",
-      "undefined" : "Beach Attraction"
-    },
-    "comment" : {
-      "undefined" : "A sandy or pebbly shore along a sea, lake, or river, often used for recreation."
-    },
-    "id" : "23",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#highRatedRestaurant",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "highRatedRestaurant",
-      "undefined" : "highRatedRestaurant"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#El_Raco",
-      "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-      "labels" : {
-        "IRI-based" : "El_Raco"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "Restaurants wtih 4 or more in ratings."
-    },
-    "id" : "27",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "26",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "29",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "30",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#metro",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "metro",
-      "undefined" : "Metro"
-    },
-    "subClasses" : [ "36" ],
-    "comment" : {
-      "undefined" : "An urban rapid transit system using underground or elevated railways."
-    },
-    "id" : "35",
-    "superClasses" : [ "22" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#restaurant",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "annotations" : {
-      "sameAs" : [ {
-        "identifier" : "sameAs",
-        "language" : "undefined",
-        "value" : "http://dbpedia.org/ontology/Restaurant",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "restaurant",
-      "undefined" : "Restaurant"
-    },
-    "subClasses" : [ "27", "33" ],
-    "comment" : {
-      "undefined" : "A place where meals are prepared and served to customers."
-    },
-    "id" : "25"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#gastronomic",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "gastronomic",
-      "undefined" : "Gastronomic Event"
-    },
-    "comment" : {
-      "undefined" : "An event focused on food tasting, culinary contests, or local cuisine exhibitions."
-    },
-    "id" : "47",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#museum",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "museum",
-      "undefined" : "Museum Attraction"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Picasso",
-      "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-      "labels" : {
-        "IRI-based" : "Picasso"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "A building where objects of historical, scientific, or artistic interest are stored and exhibited."
-    },
-    "id" : "48",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#taxi",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "taxi",
-      "undefined" : "Taxi"
-    },
-    "comment" : {
-      "undefined" : "A vehicle for hire with a driver, used by a single passenger or group."
-    },
-    "id" : "49",
-    "superClasses" : [ "22" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#event",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "event",
-      "undefined" : "Event"
-    },
-    "subClasses" : [ "50", "47", "51", "52", "53" ],
-    "comment" : {
-      "undefined" : "An organized occurrence that takes place in a city, such as a concert, gastronomic\n, or sports event."
-    },
-    "id" : "5"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#tram",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "tram",
-      "undefined" : "Tram"
-    },
-    "comment" : {
-      "undefined" : "A rail vehicle that runs on tracks in the street, typically in urban areas."
-    },
-    "id" : "54",
-    "superClasses" : [ "22" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#music",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "music",
-      "undefined" : "Music Event"
-    },
-    "comment" : {
-      "undefined" : "An event where live or recorded music is performed."
-    },
-    "id" : "52",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "annotations" : {
-      "sameAs" : [ {
-        "identifier" : "sameAs",
-        "language" : "undefined",
-        "value" : "http://dbpedia.org/ontology/Hotel",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hotel",
-      "undefined" : "Hotel"
-    },
-    "subClasses" : [ "60", "59", "56", "19", "61" ],
-    "comment" : {
-      "undefined" : "A commercial establishment offering lodging, meals, and other guest services."
-    },
-    "id" : "7"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#culturalEvent",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "culturalEvent",
-      "undefined" : "Cultural Event"
-    },
-    "comment" : {
-      "undefined" : "An event showcasing local or global cultural expressions like theater, dance, or art."
-    },
-    "id" : "50",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#bus",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "bus",
-      "undefined" : "Bus"
-    },
-    "comment" : {
-      "undefined" : "A large motor vehicle that carries passengers by road, typically on a fixed route."
-    },
-    "id" : "69",
-    "superClasses" : [ "22" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "iri" : "https://ninot18.github.io/ontology/#city",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "instances" : 0,
     "annotations" : {
       "sameAs" : [ {
@@ -501,14 +203,14 @@
       "undefined" : "City"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Madrid",
-      "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+      "iri" : "https://ninot18.github.io/ontology/#Madrid",
+      "baseIri" : "https://ninot18.github.io/ontology/",
       "labels" : {
         "IRI-based" : "Madrid"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Barcelona",
-      "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+      "iri" : "https://ninot18.github.io/ontology/#Barcelona",
+      "baseIri" : "https://ninot18.github.io/ontology/",
       "labels" : {
         "IRI-based" : "Barcelona"
       }
@@ -518,67 +220,165 @@
     },
     "id" : "4"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#rural",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
     "label" : {
-      "IRI-based" : "rural",
-      "undefined" : "Rural Hotel"
-    },
-    "comment" : {
-      "undefined" : "A hotel located in a countryside or natural environment, often offering quiet and nature-based experiences."
-    },
-    "id" : "56",
-    "superClasses" : [ "7" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#tourist",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "tourist",
-      "undefined" : "Tourist Hotel"
-    },
-    "comment" : {
-      "undefined" : "A hotel targeting regular travelers and tourists with general services."
-    },
-    "id" : "61",
-    "superClasses" : [ "7" ]
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "79",
-    "label" : {
-      "undefined" : "Thing"
+      "IRI-based" : "int"
     }
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#cheapOption",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
     "label" : {
-      "IRI-based" : "cheapOption",
-      "undefined" : "cheapOption"
-    },
-    "comment" : {
-      "undefined" : "A metro that costs less than 1€."
-    },
-    "id" : "36",
-    "superClasses" : [ "35" ]
+      "IRI-based" : "float"
+    }
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#lowRatedRestaurant",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#tech",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "lowRatedRestaurant",
-      "undefined" : "lowRatedRestaurant"
+      "IRI-based" : "tech",
+      "undefined" : "Tech Event"
     },
     "comment" : {
-      "undefined" : "Restaurants wtih less than 4 in ratings."
+      "undefined" : "An event dedicated to technology, such as conferences or exhibitions."
     },
-    "id" : "33",
+    "id" : "24",
     "superClasses" : [ "25" ]
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#lowRatedLuxury",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#museum",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "museum",
+      "undefined" : "Museum Attraction"
+    },
+    "individuals" : [ {
+      "iri" : "https://ninot18.github.io/ontology/#Picasso",
+      "baseIri" : "https://ninot18.github.io/ontology/",
+      "labels" : {
+        "IRI-based" : "Picasso"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A building where objects of historical, scientific, or artistic interest are stored and exhibited."
+    },
+    "id" : "29",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#bicycle",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "bicycle",
+      "undefined" : "Bicycle"
+    },
+    "comment" : {
+      "undefined" : "A two-wheeled vehicle powered by pedaling, used for personal or rental transport."
+    },
+    "id" : "49",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#beachHotel",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "beachHotel",
+      "undefined" : "Beach Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "https://ninot18.github.io/ontology/#Vela",
+      "baseIri" : "https://ninot18.github.io/ontology/",
+      "labels" : {
+        "IRI-based" : "Vela"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A hotel located near the beach, often catering to holidaymakers."
+    },
+    "id" : "50",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#lowRatedLuxury",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "instances" : 0,
     "label" : {
       "IRI-based" : "lowRatedLuxury",
@@ -588,109 +388,10 @@
       "undefined" : "Luxury Hotel with a rating lower than 90."
     },
     "id" : "41",
-    "superClasses" : [ "59" ]
+    "superClasses" : [ "52" ]
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#park",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "park",
-      "undefined" : "Park Attraction"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#El_Retiro",
-      "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-      "labels" : {
-        "IRI-based" : "El_Retiro"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "A public green area in a town, used for recreation."
-    },
-    "id" : "45",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#monument",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "monument",
-      "undefined" : "Monument Attraction"
-    },
-    "comment" : {
-      "undefined" : "A structure built to commemorate a notable person or event."
-    },
-    "id" : "87",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#sports",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "sports",
-      "undefined" : "Sports Event"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Copa_Del_Rey",
-      "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-      "labels" : {
-        "IRI-based" : "Copa_Del_Rey"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "An event that involves physical competition and spectators, such as a football match."
-    },
-    "id" : "51",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#transport",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "transport",
-      "undefined" : "Transport"
-    },
-    "subClasses" : [ "69", "54", "77", "35", "49" ],
-    "comment" : {
-      "undefined" : "A transportation method available in the city, such as metro, taxi, bus or bicycle."
-    },
-    "id" : "22"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#tech",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "tech",
-      "undefined" : "Tech Event"
-    },
-    "comment" : {
-      "undefined" : "An event dedicated to technology, such as conferences or exhibitions."
-    },
-    "id" : "53",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#beachHotel",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "beachHotel",
-      "undefined" : "Beach Hotel"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Vela",
-      "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-      "labels" : {
-        "IRI-based" : "Vela"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "A hotel located near the beach, often catering to holidaymakers."
-    },
-    "id" : "60",
-    "superClasses" : [ "7" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#highRatedLuxury",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "iri" : "https://ninot18.github.io/ontology/#highRatedLuxury",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "instances" : 0,
     "label" : {
       "IRI-based" : "highRatedLuxury",
@@ -700,36 +401,76 @@
       "undefined" : "Luxury Hotels with a rating higher than 90."
     },
     "id" : "40",
-    "superClasses" : [ "59" ]
+    "superClasses" : [ "52" ]
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#bicycle",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "iri" : "https://ninot18.github.io/ontology/#culturalAttraction",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "bicycle",
-      "undefined" : "Bicycle"
+      "IRI-based" : "culturalAttraction",
+      "undefined" : "Cultural Attraction"
     },
     "comment" : {
-      "undefined" : "A two-wheeled vehicle powered by pedaling, used for personal or rental transport."
+      "undefined" : "A tourist site that reflects the cultural identity or heritage of a location."
     },
-    "id" : "77",
+    "id" : "44",
     "superClasses" : [ "22" ]
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#attraction",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "iri" : "https://ninot18.github.io/ontology/#sports",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "sports",
+      "undefined" : "Sports Event"
+    },
+    "individuals" : [ {
+      "iri" : "https://ninot18.github.io/ontology/#Copa_Del_Rey",
+      "baseIri" : "https://ninot18.github.io/ontology/",
+      "labels" : {
+        "IRI-based" : "Copa_Del_Rey"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "An event that involves physical competition and spectators, such as a football match."
+    },
+    "id" : "67",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#transport",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "transport",
+      "undefined" : "Transport"
+    },
+    "subClasses" : [ "64", "55", "49", "59", "57" ],
+    "comment" : {
+      "undefined" : "A transportation method available in the city, such as metro, taxi, bus or bicycle."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#attraction",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "instances" : 0,
     "label" : {
       "IRI-based" : "attraction",
       "undefined" : "Attraction"
     },
-    "subClasses" : [ "0", "23", "45", "48", "87" ],
+    "subClasses" : [ "44", "29", "46", "72", "73" ],
     "comment" : {
       "undefined" : "A place of interest for tourists such as a museum, monument, park, or beach."
     },
-    "id" : "1"
+    "id" : "22"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#luxury",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "6",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#luxury",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "instances" : 0,
     "label" : {
       "IRI-based" : "luxury",
@@ -739,30 +480,308 @@
     "comment" : {
       "undefined" : "A high-end hotel offering premium services and accommodations."
     },
+    "id" : "52",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#monument",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "monument",
+      "undefined" : "Monument Attraction"
+    },
+    "comment" : {
+      "undefined" : "A structure built to commemorate a notable person or event."
+    },
+    "id" : "72",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#tourist",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "tourist",
+      "undefined" : "Tourist Hotel"
+    },
+    "comment" : {
+      "undefined" : "A hotel targeting regular travelers and tourists with general services."
+    },
+    "id" : "83",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hotel",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/ontology/Hotel",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hotel",
+      "undefined" : "Hotel"
+    },
+    "subClasses" : [ "83", "86", "50", "78", "52" ],
+    "comment" : {
+      "undefined" : "A commercial establishment offering lodging, meals, and other guest services."
+    },
+    "id" : "18"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#park",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "park",
+      "undefined" : "Park Attraction"
+    },
+    "individuals" : [ {
+      "iri" : "https://ninot18.github.io/ontology/#El_Retiro",
+      "baseIri" : "https://ninot18.github.io/ontology/",
+      "labels" : {
+        "IRI-based" : "El_Retiro"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A public green area in a town, used for recreation."
+    },
+    "id" : "46",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#event",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "event",
+      "undefined" : "Event"
+    },
+    "subClasses" : [ "81", "24", "75", "69", "67" ],
+    "comment" : {
+      "undefined" : "An organized occurrence that takes place in a city, such as a concert, gastronomic\n, or sports event."
+    },
+    "id" : "25"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#cheapOption",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "cheapOption",
+      "undefined" : "cheapOption"
+    },
+    "comment" : {
+      "undefined" : "A metro that costs less than 1€."
+    },
+    "id" : "62",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#taxi",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "taxi",
+      "undefined" : "Taxi"
+    },
+    "comment" : {
+      "undefined" : "A vehicle for hire with a driver, used by a single passenger or group."
+    },
     "id" : "59",
-    "superClasses" : [ "7" ]
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#lowRatedRestaurant",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "lowRatedRestaurant",
+      "undefined" : "lowRatedRestaurant"
+    },
+    "comment" : {
+      "undefined" : "Restaurants wtih less than 4 in ratings."
+    },
+    "id" : "34",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#highRatedRestaurant",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "highRatedRestaurant",
+      "undefined" : "highRatedRestaurant"
+    },
+    "individuals" : [ {
+      "iri" : "https://ninot18.github.io/ontology/#El_Raco",
+      "baseIri" : "https://ninot18.github.io/ontology/",
+      "labels" : {
+        "IRI-based" : "El_Raco"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Restaurants wtih 4 or more in ratings."
+    },
+    "id" : "33",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#metro",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "metro",
+      "undefined" : "Metro"
+    },
+    "subClasses" : [ "62" ],
+    "comment" : {
+      "undefined" : "An urban rapid transit system using underground or elevated railways."
+    },
+    "id" : "55",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#bus",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "bus",
+      "undefined" : "Bus"
+    },
+    "comment" : {
+      "undefined" : "A large motor vehicle that carries passengers by road, typically on a fixed route."
+    },
+    "id" : "64",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#rural",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "rural",
+      "undefined" : "Rural Hotel"
+    },
+    "comment" : {
+      "undefined" : "A hotel located in a countryside or natural environment, often offering quiet and nature-based experiences."
+    },
+    "id" : "86",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#culturalEvent",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "culturalEvent",
+      "undefined" : "Cultural Event"
+    },
+    "comment" : {
+      "undefined" : "An event showcasing local or global cultural expressions like theater, dance, or art."
+    },
+    "id" : "75",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#beachAttraction",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "beachAttraction",
+      "undefined" : "Beach Attraction"
+    },
+    "comment" : {
+      "undefined" : "A sandy or pebbly shore along a sea, lake, or river, often used for recreation."
+    },
+    "id" : "73",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#music",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "music",
+      "undefined" : "Music Event"
+    },
+    "comment" : {
+      "undefined" : "An event where live or recorded music is performed."
+    },
+    "id" : "81",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#tram",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "tram",
+      "undefined" : "Tram"
+    },
+    "comment" : {
+      "undefined" : "A rail vehicle that runs on tracks in the street, typically in urban areas."
+    },
+    "id" : "57",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#business",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "business",
+      "undefined" : "Business Hotel"
+    },
+    "comment" : {
+      "undefined" : "A hotel designed for business travelers, offering amenities such as meeting rooms and internet."
+    },
+    "id" : "78",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#gastronomic",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "gastronomic",
+      "undefined" : "Gastronomic Event"
+    },
+    "comment" : {
+      "undefined" : "An event focused on food tasting, culinary contests, or local cuisine exhibitions."
+    },
+    "id" : "69",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#restaurant",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/ontology/Restaurant",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "restaurant",
+      "undefined" : "Restaurant"
+    },
+    "subClasses" : [ "33", "34" ],
+    "comment" : {
+      "undefined" : "A place where meals are prepared and served to customers."
+    },
+    "id" : "37"
   } ],
   "property" : [ {
-    "id" : "3",
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "5",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "6",
-    "type" : "owl:objectProperty"
+    "id" : "17",
+    "type" : "owl:datatypeProperty"
   }, {
-    "id" : "10",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "16",
+    "id" : "19",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "21",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "24",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "28",
+    "id" : "26",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "31",
     "type" : "owl:someValuesFrom"
@@ -770,10 +789,10 @@
     "id" : "32",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "34",
+    "id" : "35",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "37",
+    "id" : "36",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "38",
@@ -788,113 +807,113 @@
     "id" : "43",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "44",
+    "id" : "45",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "46",
+    "id" : "47",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "55",
-    "type" : "rdfs:SubClassOf"
+    "id" : "48",
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "57",
+    "id" : "51",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "58",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "62",
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "63",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "64",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "65",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "66",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "67",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "68",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "70",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "71",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "72",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "73",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "74",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "75",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "76",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "78",
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "80",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "81",
+    "id" : "82",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "82",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "83",
-    "type" : "owl:datatypeProperty"
-  }, {
     "id" : "84",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "86",
-    "type" : "owl:datatypeProperty"
+    "id" : "7",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "88",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "89",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "90",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "91",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "92",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "93",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "94",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "95",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "96",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "97",
     "type" : "owl:disjointWith"
@@ -903,7 +922,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "99",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "100",
     "type" : "owl:disjointWith"
@@ -915,35 +934,98 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "103",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "104",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "105",
     "type" : "owl:disjointWith"
   }, {
     "id" : "106",
-    "type" : "owl:objectProperty"
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:disjointWith"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasEvent",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "5",
+    "iri" : "https://ninot18.github.io/ontology/#hasPrice",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "2",
     "label" : {
-      "IRI-based" : "hasEvent",
-      "undefined" : "has event"
+      "IRI-based" : "hasPrice",
+      "undefined" : "has price"
     },
-    "domain" : "4",
+    "domain" : "1",
     "comment" : {
-      "undefined" : "Indicates the events scheduled in the city."
+      "undefined" : "The cost of using a transport service"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#isLocatedIn",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "isLocatedIn",
+      "undefined" : "is located in"
+    },
+    "domain" : "6",
+    "subproperty" : [ "7", "8" ],
+    "comment" : {
+      "undefined" : "Relates a tourist resource to the city where it is located."
     },
     "attributes" : [ "object" ],
-    "id" : "3"
+    "id" : "5"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasHotel",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "7",
+    "iri" : "https://ninot18.github.io/ontology/#hasHotelRating",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "hasHotelRating",
+      "undefined" : "has hotel rating"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "Numerical evaluation score given to a hotel, usually between 0 and 100."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasStars",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasStars",
+      "undefined" : "has stars"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "Star rating assigned to a hotel."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasAttractionRating",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasAttractionRating",
+      "undefined" : "has attraction rating"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "Numerical evaluation score given to a attraction, usually between 0 and 10."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasHotel",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "18",
     "label" : {
       "IRI-based" : "hasHotel",
       "undefined" : "has hotel"
@@ -953,127 +1035,74 @@
       "undefined" : "Links a city to the hotels it contains."
     },
     "attributes" : [ "object" ],
-    "id" : "6"
+    "id" : "26"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "iri" : "https://ninot18.github.io/ontology/#hasId",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasId",
+      "undefined" : "has ID"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "The unique identification of the resource."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#isLocatedIn",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "range" : "4",
     "label" : {
       "IRI-based" : "isLocatedIn",
       "undefined" : "is located in"
     },
-    "domain" : "2",
-    "comment" : {
-      "undefined" : "Relates a tourist resource to the city where it is located."
-    },
-    "attributes" : [ "object" ],
-    "id" : "10"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasStars",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "8",
-    "label" : {
-      "IRI-based" : "hasStars",
-      "undefined" : "has stars"
-    },
-    "domain" : "7",
-    "comment" : {
-      "undefined" : "Star rating assigned to a hotel."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "16"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasPrice",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "14",
-    "label" : {
-      "IRI-based" : "hasPrice",
-      "undefined" : "has price"
-    },
-    "domain" : "22",
-    "comment" : {
-      "undefined" : "The cost of using a transport service"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "21"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasAveragePrice",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "26",
-    "label" : {
-      "IRI-based" : "hasAveragePrice",
-      "undefined" : "has average price"
-    },
-    "domain" : "25",
-    "comment" : {
-      "undefined" : "Average meal price at a restaurant."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "24"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasAttraction",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "1",
-    "label" : {
-      "IRI-based" : "hasAttraction",
-      "undefined" : "has attraction"
-    },
-    "domain" : "4",
-    "comment" : {
-      "undefined" : "Indicates the attractions that are found in a city."
-    },
-    "attributes" : [ "object" ],
-    "id" : "28"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "4",
-    "label" : {
-      "IRI-based" : "isLocatedIn",
-      "undefined" : "is located in"
-    },
-    "domain" : "7",
+    "domain" : "18",
+    "subproperty" : [ "7", "8" ],
     "comment" : {
       "undefined" : "Relates a tourist resource to the city where it is located."
     },
     "attributes" : [ "someValues", "object" ],
     "id" : "31"
   }, {
-    "range" : "33",
-    "domain" : "27",
+    "range" : "34",
+    "domain" : "33",
     "attributes" : [ "object", "anonymous" ],
     "id" : "32"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "iri" : "https://ninot18.github.io/ontology/#isLocatedIn",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "range" : "4",
     "label" : {
       "IRI-based" : "isLocatedIn",
       "undefined" : "is located in"
     },
-    "domain" : "22",
+    "domain" : "1",
+    "subproperty" : [ "7", "8" ],
     "comment" : {
       "undefined" : "Relates a tourist resource to the city where it is located."
     },
     "attributes" : [ "someValues", "object" ],
-    "id" : "34"
+    "id" : "35"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "iri" : "https://ninot18.github.io/ontology/#isLocatedIn",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "range" : "4",
     "label" : {
       "IRI-based" : "isLocatedIn",
       "undefined" : "is located in"
     },
-    "domain" : "25",
+    "domain" : "37",
+    "subproperty" : [ "7", "8" ],
     "comment" : {
       "undefined" : "Relates a tourist resource to the city where it is located."
     },
     "attributes" : [ "someValues", "object" ],
-    "id" : "37"
+    "id" : "36"
   }, {
-    "range" : "22",
-    "domain" : "25",
+    "range" : "1",
+    "domain" : "37",
     "attributes" : [ "object", "anonymous" ],
     "id" : "38"
   }, {
@@ -1082,155 +1111,256 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "39"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "iri" : "https://ninot18.github.io/ontology/#isLocatedIn",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "range" : "4",
     "label" : {
       "IRI-based" : "isLocatedIn",
       "undefined" : "is located in"
     },
-    "domain" : "5",
+    "domain" : "25",
+    "subproperty" : [ "7", "8" ],
     "comment" : {
       "undefined" : "Relates a tourist resource to the city where it is located."
     },
     "attributes" : [ "someValues", "object" ],
     "id" : "42"
   }, {
-    "range" : "1",
-    "domain" : "0",
+    "range" : "22",
+    "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
     "id" : "43"
   }, {
-    "range" : "1",
-    "domain" : "45",
+    "range" : "22",
+    "domain" : "46",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "44"
+    "id" : "45"
   }, {
-    "range" : "1",
-    "domain" : "23",
+    "range" : "22",
+    "domain" : "29",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "46"
+    "id" : "47"
   }, {
-    "range" : "7",
-    "domain" : "56",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "55"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasPricePerNight",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "13",
+    "iri" : "https://ninot18.github.io/ontology/#hasRestaurant",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "37",
     "label" : {
-      "IRI-based" : "hasPricePerNight",
-      "undefined" : "has price per night"
+      "IRI-based" : "hasRestaurant",
+      "undefined" : "has restaurant"
     },
-    "domain" : "7",
+    "domain" : "4",
     "comment" : {
-      "undefined" : "The price for one night of stay at a hotel."
+      "undefined" : "Lists restaurants available in the city."
+    },
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasAveragePrice",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasAveragePrice",
+      "undefined" : "has average price"
+    },
+    "domain" : "37",
+    "comment" : {
+      "undefined" : "Average meal price at a restaurant."
     },
     "attributes" : [ "datatype" ],
-    "id" : "57"
+    "id" : "51"
   }, {
-    "range" : "7",
+    "range" : "1",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "1",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "1",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "1",
     "domain" : "59",
     "attributes" : [ "object", "anonymous" ],
     "id" : "58"
   }, {
-    "range" : "7",
-    "domain" : "61",
+    "range" : "37",
+    "domain" : "33",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "62"
+    "id" : "60"
   }, {
-    "range" : "7",
-    "domain" : "19",
+    "range" : "55",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "1",
+    "domain" : "64",
     "attributes" : [ "object", "anonymous" ],
     "id" : "63"
   }, {
-    "range" : "5",
-    "domain" : "52",
+    "range" : "37",
+    "domain" : "34",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "64"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasHotelRating",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "18",
-    "label" : {
-      "IRI-based" : "hasHotelRating",
-      "undefined" : "has hotel rating"
-    },
-    "domain" : "7",
-    "comment" : {
-      "undefined" : "Numerical evaluation score given to a hotel, usually between 0 and 100."
-    },
-    "attributes" : [ "datatype" ],
     "id" : "65"
   }, {
-    "range" : "5",
-    "domain" : "51",
+    "range" : "25",
+    "domain" : "67",
     "attributes" : [ "object", "anonymous" ],
     "id" : "66"
   }, {
-    "range" : "7",
-    "domain" : "60",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "67"
-  }, {
-    "range" : "5",
-    "domain" : "53",
+    "range" : "25",
+    "domain" : "69",
     "attributes" : [ "object", "anonymous" ],
     "id" : "68"
   }, {
-    "range" : "5",
-    "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
+    "iri" : "https://ninot18.github.io/ontology/#hasDate",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasDate",
+      "undefined" : "has date"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "The date on which an event takes place."
+    },
+    "attributes" : [ "datatype" ],
     "id" : "70"
   }, {
-    "range" : "5",
-    "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "iri" : "https://ninot18.github.io/ontology/#hasEvent",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "hasEvent",
+      "undefined" : "has event"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Indicates the events scheduled in the city."
+    },
+    "attributes" : [ "object" ],
     "id" : "71"
   }, {
-    "range" : "22",
-    "domain" : "49",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "72"
-  }, {
-    "range" : "22",
-    "domain" : "54",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "73"
-  }, {
-    "range" : "22",
-    "domain" : "69",
+    "range" : "25",
+    "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "74"
   }, {
-    "range" : "22",
-    "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "75"
-  }, {
-    "range" : "22",
-    "domain" : "77",
+    "range" : "18",
+    "domain" : "52",
     "attributes" : [ "object", "anonymous" ],
     "id" : "76"
   }, {
-    "range" : "35",
-    "domain" : "36",
+    "range" : "18",
+    "domain" : "78",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "78"
+    "id" : "77"
   }, {
     "range" : "25",
-    "domain" : "33",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "25",
+    "domain" : "81",
     "attributes" : [ "object", "anonymous" ],
     "id" : "80"
   }, {
-    "range" : "25",
-    "domain" : "27",
+    "range" : "18",
+    "domain" : "83",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "81"
+    "id" : "82"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasCardinalLocation",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "range" : "18",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "18",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasName",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasName",
+      "undefined" : "has name"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "he name of the resource."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasLongitude",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasLongitude",
+      "undefined" : "has longitude"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Longitude of the location."
+    },
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasCompany",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasCompany",
+      "undefined" : "has company"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The company that provides the transport service."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasRating",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasRating",
+      "undefined" : "hasRating"
+    },
+    "domain" : "37",
+    "comment" : {
+      "undefined" : "Numerical evaluation score given to a restaurant, usually between 0 and 10."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasLatitude",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasLatitude",
+      "undefined" : "has latitude"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Latitude of the location."
+    },
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasCardinalLocation",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "range" : "30",
     "label" : {
       "IRI-based" : "hasCardinalLocation",
@@ -1241,25 +1371,25 @@
       "undefined" : "Geographic latitude and longitude coordinates of a city."
     },
     "attributes" : [ "datatype" ],
-    "id" : "82"
+    "id" : "90"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasCuisineType",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "15",
+    "iri" : "https://ninot18.github.io/ontology/#hasCuisineType",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "14",
     "label" : {
       "IRI-based" : "hasCuisineType",
       "undefined" : "has cuisine type"
     },
-    "domain" : "25",
+    "domain" : "37",
     "comment" : {
       "undefined" : "Specifies the type of cuisine served by a restaurant."
     },
     "attributes" : [ "datatype" ],
-    "id" : "83"
+    "id" : "91"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasTransport",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "22",
+    "iri" : "https://ninot18.github.io/ontology/#hasTransport",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "1",
     "label" : {
       "IRI-based" : "hasTransport",
       "undefined" : "has transport"
@@ -1269,183 +1399,114 @@
       "undefined" : "Indicates transport options available in the city."
     },
     "attributes" : [ "object" ],
-    "id" : "84"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasName",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "11",
-    "label" : {
-      "IRI-based" : "hasName",
-      "undefined" : "has name"
-    },
-    "domain" : "79",
-    "comment" : {
-      "undefined" : "he name of the resource."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "85"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasCompany",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "17",
-    "label" : {
-      "IRI-based" : "hasCompany",
-      "undefined" : "has company"
-    },
-    "domain" : "22",
-    "comment" : {
-      "undefined" : "The company that provides the transport service."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "86"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasId",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "12",
-    "label" : {
-      "IRI-based" : "hasId",
-      "undefined" : "has ID"
-    },
-    "domain" : "79",
-    "comment" : {
-      "undefined" : "The unique identification of the resource."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "88"
-  }, {
-    "range" : "1",
-    "domain" : "87",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "89"
-  }, {
-    "range" : "1",
-    "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "90"
-  }, {
-    "range" : "59",
-    "domain" : "40",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "91"
-  }, {
-    "range" : "59",
-    "domain" : "41",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "92"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasDate",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "20",
-    "label" : {
-      "IRI-based" : "hasDate",
-      "undefined" : "has date"
-    },
-    "domain" : "5",
-    "comment" : {
-      "undefined" : "The date on which an event takes place."
-    },
-    "attributes" : [ "datatype" ],
+    "range" : "22",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "93"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasAttractionRating",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "29",
-    "label" : {
-      "IRI-based" : "hasAttractionRating",
-      "undefined" : "has attraction rating"
-    },
-    "domain" : "1",
-    "comment" : {
-      "undefined" : "Numerical evaluation score given to a attraction, usually between 0 and 10."
-    },
-    "attributes" : [ "datatype" ],
+    "range" : "22",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "94"
   }, {
-    "range" : "7",
-    "domain" : "1",
+    "range" : "52",
+    "domain" : "40",
     "attributes" : [ "object", "anonymous" ],
     "id" : "95"
   }, {
-    "range" : "25",
-    "domain" : "1",
+    "range" : "52",
+    "domain" : "41",
     "attributes" : [ "object", "anonymous" ],
     "id" : "96"
   }, {
-    "range" : "22",
-    "domain" : "1",
+    "range" : "18",
+    "domain" : "22",
     "attributes" : [ "object", "anonymous" ],
     "id" : "97"
   }, {
-    "range" : "7",
-    "domain" : "5",
+    "range" : "37",
+    "domain" : "22",
     "attributes" : [ "object", "anonymous" ],
     "id" : "98"
   }, {
-    "range" : "25",
-    "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
+    "iri" : "https://ninot18.github.io/ontology/#hasAttraction",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "hasAttraction",
+      "undefined" : "has attraction"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Indicates the attractions that are found in a city."
+    },
+    "attributes" : [ "object" ],
     "id" : "99"
   }, {
-    "range" : "22",
-    "domain" : "5",
+    "range" : "1",
+    "domain" : "22",
     "attributes" : [ "object", "anonymous" ],
     "id" : "100"
   }, {
-    "range" : "25",
-    "domain" : "7",
+    "range" : "18",
+    "domain" : "25",
     "attributes" : [ "object", "anonymous" ],
     "id" : "101"
   }, {
-    "range" : "22",
-    "domain" : "7",
+    "range" : "37",
+    "domain" : "25",
     "attributes" : [ "object", "anonymous" ],
     "id" : "102"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasRating",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "9",
-    "label" : {
-      "IRI-based" : "hasRating",
-      "undefined" : "hasRating"
-    },
+    "range" : "1",
     "domain" : "25",
-    "comment" : {
-      "undefined" : "Numerical evaluation score given to a restaurant, usually between 0 and 10."
-    },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "103"
   }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
+    "range" : "37",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#isLocatedIn",
+    "baseIri" : "https://ninot18.github.io/ontology/",
     "range" : "4",
     "label" : {
       "IRI-based" : "isLocatedIn",
       "undefined" : "is located in"
     },
-    "domain" : "1",
+    "domain" : "22",
+    "subproperty" : [ "7", "8" ],
     "comment" : {
       "undefined" : "Relates a tourist resource to the city where it is located."
     },
     "attributes" : [ "someValues", "object" ],
-    "id" : "104"
-  }, {
-    "range" : "5",
-    "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "105"
-  }, {
-    "iri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasRestaurant",
-    "baseIri" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
-    "range" : "25",
-    "label" : {
-      "IRI-based" : "hasRestaurant",
-      "undefined" : "has restaurant"
-    },
-    "domain" : "4",
-    "comment" : {
-      "undefined" : "Lists restaurants available in the city."
-    },
-    "attributes" : [ "object" ],
     "id" : "106"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasPricePerNight",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasPricePerNight",
+      "undefined" : "has price per night"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "The price for one night of stay at a hotel."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "107"
+  }, {
+    "range" : "25",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
   } ]
 }
