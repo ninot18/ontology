@@ -5,6 +5,7 @@
     "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://ninot18.github.io/ontology/" ],
     "iri" : "https://ninot18.github.io/ontology/",
     "version" : "Version 1.0.0",
+    "author" : [ "Pedro Rojas", "Pedro Giovanny Rojas Gil" ],
     "labels" : {
       "undefined" : "SmartTourism"
     },
@@ -12,10 +13,33 @@
       "undefined" : "Ontology developed by Pedro Giovanny Rojas Gil"
     },
     "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "CC-BY 4.0",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Pedro Giovanny Rojas Gil",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Pedro Rojas",
+        "type" : "label"
+      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "undefined",
         "value" : "Version 1.0.0",
+        "type" : "label"
+      } ],
+      "creationDate" : [ {
+        "identifier" : "creationDate",
+        "language" : "undefined",
+        "value" : "2025-04-30T12:00:00Z",
         "type" : "label"
       } ]
     }
@@ -962,20 +986,6 @@
     "attributes" : [ "object" ],
     "id" : "5"
   }, {
-    "iri" : "https://ninot18.github.io/ontology/#hasHotelRating",
-    "baseIri" : "https://ninot18.github.io/ontology/",
-    "range" : "16",
-    "label" : {
-      "IRI-based" : "hasHotelRating",
-      "undefined" : "has hotel rating"
-    },
-    "domain" : "18",
-    "comment" : {
-      "undefined" : "Numerical evaluation score given to a hotel, usually between 0 and 100."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "17"
-  }, {
     "iri" : "https://ninot18.github.io/ontology/#hasStars",
     "baseIri" : "https://ninot18.github.io/ontology/",
     "range" : "9",
@@ -986,6 +996,20 @@
     "domain" : "18",
     "comment" : {
       "undefined" : "Star rating assigned to a hotel."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://ninot18.github.io/ontology/#hasHotelRating",
+    "baseIri" : "https://ninot18.github.io/ontology/",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "hasHotelRating",
+      "undefined" : "has hotel rating"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "Numerical evaluation score given to a hotel, usually between 0 and 100."
     },
     "attributes" : [ "datatype" ],
     "id" : "19"

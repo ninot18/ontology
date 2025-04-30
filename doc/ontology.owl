@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://ninot18.github.io/ontology/"
      xml:base="https://ninot18.github.io/ontology/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -11,8 +12,12 @@
      xmlns:ontology="https://ninot18.github.io/ontology/#">
     <owl:Ontology rdf:about="https://ninot18.github.io/ontology/">
         <owl:versionIRI rdf:resource="https://ninot18.github.io/ontology/1.0.0"/>
+        <dc:creator>Pedro Rojas</dc:creator>
         <rdfs:comment>Ontology developed by Pedro Giovanny Rojas Gil</rdfs:comment>
+        <rdfs:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2025-04-30T12:00:00Z</rdfs:creationDate>
+        <rdfs:creator>Pedro Giovanny Rojas Gil</rdfs:creator>
         <rdfs:label>SmartTourism</rdfs:label>
+        <rdfs:license>CC-BY 4.0</rdfs:license>
         <owl:versionInfo>Version 1.0.0</owl:versionInfo>
     </owl:Ontology>
     
@@ -27,6 +32,34 @@
      -->
 
 
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#creationDate -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#creationDate"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#creator"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#license"/>
     
 
 

@@ -243,6 +243,18 @@
     } ]
   } ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#creationDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -251,11 +263,24 @@
 }, {
   "@id" : "https://ninot18.github.io/ontology/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Pedro Rojas"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Ontology developed by Pedro Giovanny Rojas Gil"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#creationDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "2025-04-30T12:00:00Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#creator" : [ {
+    "@value" : "Pedro Giovanny Rojas Gil"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "SmartTourism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#license" : [ {
+    "@value" : "CC-BY 4.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://ninot18.github.io/ontology/1.0.0"

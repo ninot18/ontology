@@ -1,7 +1,11 @@
 <https://ninot18.github.io/ontology/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://ninot18.github.io/ontology/> <http://www.w3.org/2002/07/owl#versionIRI> <https://ninot18.github.io/ontology/1.0.0> .
+<https://ninot18.github.io/ontology/> <http://purl.org/dc/elements/1.1/creator> "Pedro Rojas" .
 <https://ninot18.github.io/ontology/> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology developed by Pedro Giovanny Rojas Gil" .
+<https://ninot18.github.io/ontology/> <http://www.w3.org/2000/01/rdf-schema#creationDate> "2025-04-30T12:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<https://ninot18.github.io/ontology/> <http://www.w3.org/2000/01/rdf-schema#creator> "Pedro Giovanny Rojas Gil" .
 <https://ninot18.github.io/ontology/> <http://www.w3.org/2000/01/rdf-schema#label> "SmartTourism" .
+<https://ninot18.github.io/ontology/> <http://www.w3.org/2000/01/rdf-schema#license> "CC-BY 4.0" .
 <https://ninot18.github.io/ontology/> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0.0" .
 # 
 # 
@@ -11,6 +15,18 @@
 # #
 # #################################################################
 # 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#creationDate
+<http://www.w3.org/2000/01/rdf-schema#creationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#creator
+<http://www.w3.org/2000/01/rdf-schema#creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#license
+<http://www.w3.org/2000/01/rdf-schema#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2000/01/rdf-schema#sameAs
 <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
