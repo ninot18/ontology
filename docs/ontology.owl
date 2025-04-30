@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://ninot18.github.io/ontology/"
      xml:base="https://ninot18.github.io/ontology/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -11,13 +10,12 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:ontology="https://ninot18.github.io/ontology/#">
     <owl:Ontology rdf:about="https://ninot18.github.io/ontology/">
-        <owl:versionIRI rdf:resource="https://ninot18.github.io/ontology/1.0.0"/>
-        <dc:creator>Pedro Rojas</dc:creator>
+        <owl:versionIRI rdf:resource="https://ninot18.github.io/ontology/1.0.0D"/>
         <rdfs:comment>Ontology developed by Pedro Giovanny Rojas Gil</rdfs:comment>
         <rdfs:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2025-04-30T12:00:00Z</rdfs:creationDate>
         <rdfs:creator>Pedro Giovanny Rojas Gil</rdfs:creator>
         <rdfs:label>SmartTourism</rdfs:label>
-        <rdfs:license>CC-BY 4.0</rdfs:license>
+        <rdfs:license>CC-ALL 4.0</rdfs:license>
         <owl:versionInfo>Version 1.0.0</owl:versionInfo>
     </owl:Ontology>
     
@@ -32,13 +30,6 @@
      -->
 
 
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/creator -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
     
 
 
