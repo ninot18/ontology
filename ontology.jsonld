@@ -2,10 +2,10 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#isLocatedIn"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ]
 }, {
   "@id" : "_:genid12",
@@ -48,16 +48,16 @@
     "@id" : "urn:swrl:var#w"
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hasHotelRating"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasHotelRating"
   } ]
 }, {
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#isLocatedIn"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ]
 }, {
   "@id" : "_:genid20",
@@ -66,7 +66,7 @@
     "@id" : "urn:swrl:var#o"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#luxury"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#luxury"
   } ]
 }, {
   "@id" : "_:genid22",
@@ -75,7 +75,7 @@
     "@id" : "urn:swrl:var#o"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#lowRatedLuxury"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#lowRatedLuxury"
   } ]
 }, {
   "@id" : "_:genid23",
@@ -84,7 +84,7 @@
     "@list" : [ {
       "@id" : "_:genid31"
     }, {
-      "@id" : "_:genid27"
+      "@id" : "_:genid29"
     }, {
       "@id" : "_:genid25"
     } ]
@@ -96,18 +96,6 @@
   } ]
 }, {
   "@id" : "_:genid25",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#o"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#w"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hasAveragePrice"
-  } ]
-}, {
-  "@id" : "_:genid27",
   "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
   "http://www.w3.org/2003/11/swrl#arguments" : [ {
     "@list" : [ {
@@ -121,13 +109,25 @@
     "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
   } ]
 }, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasAveragePrice"
+  } ]
+}, {
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#isLocatedIn"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ]
 }, {
   "@id" : "_:genid31",
@@ -136,7 +136,7 @@
     "@id" : "urn:swrl:var#o"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#metro"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#metro"
   } ]
 }, {
   "@id" : "_:genid33",
@@ -145,7 +145,7 @@
     "@id" : "urn:swrl:var#o"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#cheapOption"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#cheapOption"
   } ]
 }, {
   "@id" : "_:genid34",
@@ -154,7 +154,7 @@
     "@list" : [ {
       "@id" : "_:genid42"
     }, {
-      "@id" : "_:genid38"
+      "@id" : "_:genid40"
     }, {
       "@id" : "_:genid36"
     } ]
@@ -166,18 +166,6 @@
   } ]
 }, {
   "@id" : "_:genid36",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#o"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#w"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hasRating"
-  } ]
-}, {
-  "@id" : "_:genid38",
   "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
   "http://www.w3.org/2003/11/swrl#arguments" : [ {
     "@list" : [ {
@@ -194,10 +182,22 @@
   "@id" : "_:genid4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#isLocatedIn"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasRating"
   } ]
 }, {
   "@id" : "_:genid42",
@@ -206,7 +206,7 @@
     "@id" : "urn:swrl:var#o"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#restaurant"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#restaurant"
   } ]
 }, {
   "@id" : "_:genid44",
@@ -215,227 +215,199 @@
     "@id" : "urn:swrl:var#o"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#lowRatedRestaurant"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#lowRatedRestaurant"
   } ]
 }, {
   "@id" : "_:genid5",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#isLocatedIn"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ]
 }, {
   "@id" : "_:genid6",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://ninot18.github.io/ontology/#attraction"
+      "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#attraction"
     }, {
-      "@id" : "https://ninot18.github.io/ontology/#event"
+      "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#event"
     }, {
-      "@id" : "https://ninot18.github.io/ontology/#hotel"
+      "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel"
     }, {
-      "@id" : "https://ninot18.github.io/ontology/#restaurant"
+      "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#restaurant"
     }, {
-      "@id" : "https://ninot18.github.io/ontology/#transport"
+      "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#transport"
     } ]
   } ]
 }, {
-  "@id" : "http://www.w3.org/2000/01/rdf-schema#creationDate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://www.w3.org/2000/01/rdf-schema#creator",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://www.w3.org/2000/01/rdf-schema#license",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
-}, {
-  "@id" : "https://ninot18.github.io/ontology/",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Ontology developed by Pedro Giovanny Rojas Gil"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#creationDate" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
-    "@value" : "2025-04-30T12:00:00Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#creator" : [ {
-    "@value" : "Pedro Giovanny Rojas Gil"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "SmartTourism"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#license" : [ {
-    "@value" : "CC-ALL 4.0"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://ninot18.github.io/ontology/1.0.0D"
-  } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "Version 1.0.0"
+    "@value" : "Version 1.0"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#Barcelona",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Barcelona",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
-  } ],
-  "https://ninot18.github.io/ontology/#hasCardinalLocation" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasCardinalLocation" : [ {
     "@value" : "41.390205,2.154007"
   } ],
-  "https://ninot18.github.io/ontology/#hasEvent" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#Copa_Del_Rey"
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasEvent" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Copa_Del_Rey"
   } ],
-  "https://ninot18.github.io/ontology/#hasHotel" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#Vela"
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasHotel" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Vela"
   } ],
-  "https://ninot18.github.io/ontology/#hasId" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasId" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "1"
   } ],
-  "https://ninot18.github.io/ontology/#hasName" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasName" : [ {
     "@value" : "Barcelona"
   } ],
-  "https://ninot18.github.io/ontology/#hasRestaurant" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#El_Raco"
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasRestaurant" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#El_Raco"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#Copa_Del_Rey",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Copa_Del_Rey",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#sports"
-  } ],
-  "https://ninot18.github.io/ontology/#hasDate" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasDate" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "@value" : "2025-10-09T21:00:00"
   } ],
-  "https://ninot18.github.io/ontology/#hasId" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasId" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "1"
   } ],
-  "https://ninot18.github.io/ontology/#hasName" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasName" : [ {
     "@value" : "Final de la Copa del Rey"
   } ],
-  "https://ninot18.github.io/ontology/#isLocatedIn" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#Barcelona"
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Barcelona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#sports"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#El_Raco",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#El_Raco",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#highRatedRestaurant"
-  } ],
-  "https://ninot18.github.io/ontology/#hasAveragePrice" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasAveragePrice" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "15.0"
   } ],
-  "https://ninot18.github.io/ontology/#hasCuisineType" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasCuisineType" : [ {
     "@value" : "Mediterranean"
   } ],
-  "https://ninot18.github.io/ontology/#hasId" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasId" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "1"
   } ],
-  "https://ninot18.github.io/ontology/#hasName" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasName" : [ {
     "@value" : "El Raco"
   } ],
-  "https://ninot18.github.io/ontology/#isLocatedIn" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#Barcelona"
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Barcelona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#highRatedRestaurant"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#El_Retiro",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#El_Retiro",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#park"
-  } ],
-  "https://ninot18.github.io/ontology/#hasAttractionRating" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasAttractionRating" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "4.9"
   } ],
-  "https://ninot18.github.io/ontology/#hasId" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasId" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "2"
   } ],
-  "https://ninot18.github.io/ontology/#hasName" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasName" : [ {
     "@value" : "Parque \"El Retiro\""
   } ],
-  "https://ninot18.github.io/ontology/#isLocatedIn" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#Madrid"
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Madrid"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#park"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#Madrid",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Madrid",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
-  } ],
-  "https://ninot18.github.io/ontology/#hasCardinalLocation" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasCardinalLocation" : [ {
     "@value" : "40.416775,-3.703790"
   } ],
-  "https://ninot18.github.io/ontology/#hasId" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasId" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "2"
   } ],
-  "https://ninot18.github.io/ontology/#hasName" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasName" : [ {
     "@value" : "Madrid"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#Picasso",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Picasso",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#museum"
-  } ],
-  "https://ninot18.github.io/ontology/#hasAttractionRating" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasAttractionRating" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "4.8"
   } ],
-  "https://ninot18.github.io/ontology/#hasId" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasId" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "1"
   } ],
-  "https://ninot18.github.io/ontology/#hasName" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasName" : [ {
     "@value" : "Museum Picasso"
   } ],
-  "https://ninot18.github.io/ontology/#isLocatedIn" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#Barcelona"
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Barcelona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#museum"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#Vela",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Vela",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#beachHotel"
-  } ],
-  "https://ninot18.github.io/ontology/#hasHotelRating" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasHotelRating" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "98.0"
   } ],
-  "https://ninot18.github.io/ontology/#hasId" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasId" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "1"
   } ],
-  "https://ninot18.github.io/ontology/#hasName" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasName" : [ {
     "@value" : "Hotel Vela"
   } ],
-  "https://ninot18.github.io/ontology/#hasPricePerNight" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasPricePerNight" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "300.0"
   } ],
-  "https://ninot18.github.io/ontology/#hasStars" : [ {
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasStars" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "4"
   } ],
-  "https://ninot18.github.io/ontology/#isLocatedIn" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#Barcelona"
+  "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#Barcelona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#beachHotel"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#attraction",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#attraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A place of interest for tourists such as a museum, monument, park, or beach."
@@ -447,7 +419,7 @@
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#beachAttraction",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#beachAttraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A sandy or pebbly shore along a sea, lake, or river, often used for recreation."
@@ -456,10 +428,10 @@
     "@value" : "Beach Attraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#attraction"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#attraction"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#beachHotel",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#beachHotel",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A hotel located near the beach, often catering to holidaymakers."
@@ -468,10 +440,10 @@
     "@value" : "Beach Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hotel"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#bicycle",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#bicycle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A two-wheeled vehicle powered by pedaling, used for personal or rental transport."
@@ -480,10 +452,10 @@
     "@value" : "Bicycle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#transport"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#transport"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#bus",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#bus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A large motor vehicle that carries passengers by road, typically on a fixed route."
@@ -492,10 +464,10 @@
     "@value" : "Bus"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#transport"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#transport"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#business",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#business",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A hotel designed for business travelers, offering amenities such as meeting rooms and internet."
@@ -504,10 +476,10 @@
     "@value" : "Business Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hotel"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#cheapOption",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#cheapOption",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A metro that costs less than 1€."
@@ -516,10 +488,10 @@
     "@value" : "cheapOption"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#metro"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#metro"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#city",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A geographical area that contains tourist resources such as attractions, events, hotels, restaurants, and transport."
@@ -532,7 +504,7 @@
     "@value" : "http://dbpedia.org/ontology/City"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#culturalAttraction",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#culturalAttraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A tourist site that reflects the cultural identity or heritage of a location."
@@ -541,10 +513,10 @@
     "@value" : "Cultural Attraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#attraction"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#attraction"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#culturalEvent",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#culturalEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "An event showcasing local or global cultural expressions like theater, dance, or art."
@@ -553,10 +525,10 @@
     "@value" : "Cultural Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#event"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#event"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#event",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "An organized occurrence that takes place in a city, such as a concert, gastronomic\n, or sports event."
@@ -568,7 +540,7 @@
     "@id" : "_:genid2"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#gastronomic",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#gastronomic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "An event focused on food tasting, culinary contests, or local cuisine exhibitions."
@@ -577,31 +549,31 @@
     "@value" : "Gastronomic Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#event"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#event"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasAttraction",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasAttraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicates the attractions that are found in a city."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has attraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#attraction"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#attraction"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasAttractionRating",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasAttractionRating",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Numerical evaluation score given to a attraction, usually between 0 and 10."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#attraction"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#attraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has attraction rating"
@@ -610,13 +582,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasAveragePrice",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasAveragePrice",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Average meal price at a restaurant."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#restaurant"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#restaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has average price"
@@ -625,13 +597,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasCardinalLocation",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasCardinalLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Geographic latitude and longitude coordinates of a city."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has cardinal coordinates"
@@ -640,13 +612,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasCompany",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasCompany",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The company that provides the transport service."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#transport"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#transport"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has company"
@@ -655,13 +627,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasCuisineType",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasCuisineType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Specifies the type of cuisine served by a restaurant."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#restaurant"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#restaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has cuisine type"
@@ -670,13 +642,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasDate",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The date on which an event takes place."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#event"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has date"
@@ -685,43 +657,43 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasEvent",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicates the events scheduled in the city."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#event"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#event"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasHotel",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasHotel",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Links a city to the hotels it contains."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hotel"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasHotelRating",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasHotelRating",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Numerical evaluation score given to a hotel, usually between 0 and 100."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hotel"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has hotel rating"
@@ -730,7 +702,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasId",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasId",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The unique identification of the resource."
@@ -745,37 +717,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#int"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasLatitude",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Latitude of the location."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "has latitude"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#isLocatedIn"
-  } ]
-}, {
-  "@id" : "https://ninot18.github.io/ontology/#hasLongitude",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Longitude of the location."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "has longitude"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#isLocatedIn"
-  } ]
-}, {
-  "@id" : "https://ninot18.github.io/ontology/#hasName",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "he name of the resource."
@@ -790,13 +732,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasPrice",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasPrice",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The cost of using a transport service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#transport"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#transport"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has price"
@@ -805,13 +747,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasPricePerNight",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasPricePerNight",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The price for one night of stay at a hotel."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hotel"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has price per night"
@@ -820,13 +762,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasRating",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasRating",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Numerical evaluation score given to a restaurant, usually between 0 and 10."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#restaurant"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#restaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "hasRating"
@@ -835,28 +777,28 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasRestaurant",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasRestaurant",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Lists restaurants available in the city."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has restaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#restaurant"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#restaurant"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasStars",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasStars",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Star rating assigned to a hotel."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hotel"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has stars"
@@ -865,22 +807,22 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#int"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hasTransport",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hasTransport",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicates transport options available in the city."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has transport"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#transport"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#transport"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#highRatedLuxury",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#highRatedLuxury",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Luxury Hotels with a rating higher than 90."
@@ -889,13 +831,13 @@
     "@value" : "highRatedLuxury"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#luxury"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#luxury"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#lowRatedLuxury"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#lowRatedLuxury"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#highRatedRestaurant",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#highRatedRestaurant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Restaurants wtih 4 or more in ratings."
@@ -904,13 +846,13 @@
     "@value" : "highRatedRestaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#restaurant"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#restaurant"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#lowRatedRestaurant"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#lowRatedRestaurant"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#hotel",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A commercial establishment offering lodging, meals, and other guest services."
@@ -926,7 +868,7 @@
     "@id" : "_:genid3"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#isLocatedIn",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#isLocatedIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Relates a tourist resource to the city where it is located."
@@ -935,10 +877,10 @@
     "@value" : "is located in"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#city"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#city"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#lowRatedLuxury",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#lowRatedLuxury",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Luxury Hotel with a rating lower than 90."
@@ -947,10 +889,10 @@
     "@value" : "lowRatedLuxury"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#luxury"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#luxury"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#lowRatedRestaurant",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#lowRatedRestaurant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Restaurants wtih less than 4 in ratings."
@@ -959,10 +901,10 @@
     "@value" : "lowRatedRestaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#restaurant"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#restaurant"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#luxury",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#luxury",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A high-end hotel offering premium services and accommodations."
@@ -971,10 +913,10 @@
     "@value" : "Luxury Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hotel"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#metro",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#metro",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "An urban rapid transit system using underground or elevated railways."
@@ -983,10 +925,10 @@
     "@value" : "Metro"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#transport"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#transport"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#monument",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#monument",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A structure built to commemorate a notable person or event."
@@ -995,10 +937,10 @@
     "@value" : "Monument Attraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#attraction"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#attraction"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#museum",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#museum",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A building where objects of historical, scientific, or artistic interest are stored and exhibited."
@@ -1007,10 +949,10 @@
     "@value" : "Museum Attraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#attraction"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#attraction"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#music",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#music",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "An event where live or recorded music is performed."
@@ -1019,10 +961,10 @@
     "@value" : "Music Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#event"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#event"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#park",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#park",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A public green area in a town, used for recreation."
@@ -1031,10 +973,10 @@
     "@value" : "Park Attraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#attraction"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#attraction"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#restaurant",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#restaurant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A place where meals are prepared and served to customers."
@@ -1050,7 +992,7 @@
     "@id" : "_:genid4"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#rural",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#rural",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A hotel located in a countryside or natural environment, often offering quiet and nature-based experiences."
@@ -1059,10 +1001,10 @@
     "@value" : "Rural Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hotel"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#sports",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#sports",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "An event that involves physical competition and spectators, such as a football match."
@@ -1071,10 +1013,10 @@
     "@value" : "Sports Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#event"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#event"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#taxi",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#taxi",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A vehicle for hire with a driver, used by a single passenger or group."
@@ -1083,10 +1025,10 @@
     "@value" : "Taxi"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#transport"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#transport"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#tech",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#tech",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "An event dedicated to technology, such as conferences or exhibitions."
@@ -1095,10 +1037,10 @@
     "@value" : "Tech Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#event"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#event"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#tourist",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#tourist",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A hotel targeting regular travelers and tourists with general services."
@@ -1107,10 +1049,10 @@
     "@value" : "Tourist Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#hotel"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#hotel"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#tram",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#tram",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A rail vehicle that runs on tracks in the street, typically in urban areas."
@@ -1119,10 +1061,10 @@
     "@value" : "Tram"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://ninot18.github.io/ontology/#transport"
+    "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#transport"
   } ]
 }, {
-  "@id" : "https://ninot18.github.io/ontology/#transport",
+  "@id" : "http://www.semanticweb.org/peter/ontologies/2025/3/smart_tourism#transport",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A transportation method available in the city, such as metro, taxi, bus or bicycle."
@@ -1133,6 +1075,12 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid5"
   } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
 }, {
   "@id" : "urn:swrl:var#o",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
